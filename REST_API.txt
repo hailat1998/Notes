@@ -1,0 +1,17 @@
+REST (Representational State Transfer) is a software architectural style for building web services that use HTTP as the communication protocol. RESTful APIs (Application Programming Interfaces) are APIs that adhere to the REST architectural style. These APIs are designed to be simple, lightweight, and scalable, and are widely used for building web applications and mobile apps.
+
+REST APIs are based on a set of principles and constraints that define how the API should be designed and implemented. These principles include:
+
+Client-Server architecture: The API is designed to be a client-server architecture, with the client and server being loosely coupled and able to evolve independently.
+
+Stateless: The API is stateless, which means that each request contains all the information necessary for the server to understand and process the request. This makes the API scalable and easy to cache.
+
+Cacheable: The API should be designed to be cacheable, so that responses can be reused for similar requests in the future.
+
+Uniform Interface: The API should have a uniform interface, which means that the API should have a consistent way of accessing resources, using HTTP methods such as GET, POST, PUT, and DELETE.
+
+Layered System: The API should be designed to be a layered system, with each layer having a specific function and being able to evolve independently.
+
+To use a REST API, a client sends a request to the server using HTTP methods such as GET, POST, PUT, and DELETE. The server then responds with a status code and a representation of the requested resource, typically in the form of JSON or XML.
+
+REST APIs have become one of the most popular ways to build web services due to their simplicity, scalability, and compatibility with a wide range of programming languages and frameworks. They are used by many popular web services such as Twitter, Facebook, and Google.
